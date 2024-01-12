@@ -1,0 +1,84 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.18
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1704162406.01148
+    t:
+      1:
+      - 1
+      - 41
+      - 51
+      - 55
+      - 105
+      2:
+      - 1
+      - 41
+      - 51
+      - 55
+      - 105
+      3:
+      - 13
+      - 23
+      4: 3.9.18
+      5: 0.16.1
+      8:
+      - 5
+      - 9
+      13: linux-x86_64
+distributed:
+  desc: null
+  value: true
+epoch:
+  desc: null
+  value: 1500
+n_epochs:
+  desc: null
+  value: 4500
+dataset_name:
+  desc: null
+  value: img_align_celeba
+batch_size:
+  desc: null
+  value: 8
+lr:
+  desc: null
+  value: 0.0002
+b1:
+  desc: null
+  value: 0.5
+b2:
+  desc: null
+  value: 0.999
+decay_epoch:
+  desc: null
+  value: 100
+n_cpu:
+  desc: null
+  value: 8
+hr_height:
+  desc: null
+  value: 720
+hr_width:
+  desc: null
+  value: 540
+channels:
+  desc: null
+  value: 3
+sample_interval:
+  desc: null
+  value: 100
+checkpoint_interval:
+  desc: null
+  value: 100
+world_size:
+  desc: null
+  value: 3
+main_gpu:
+  desc: null
+  value: 0
